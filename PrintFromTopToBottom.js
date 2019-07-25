@@ -13,6 +13,7 @@
 function PrintFromTopToBottom(root)
 {
     // write code here
+    var s = 1;
     var res = [], tree = [];
     if (!root) return [];
     tree.push(root);
