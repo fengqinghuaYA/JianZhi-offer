@@ -5,8 +5,7 @@
 
 
  //动态规划 dp[n] = dp[n-1] + dp[n-2]
-function rectCover(number)
-{
+function rectCover(number){
     // write code here
     var arr = [];
     arr[0]=0,arr[1]=1,arr[2]=2;
